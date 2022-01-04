@@ -19,6 +19,7 @@ const coin = {
     toHTML: function(){
         const image = document.createElement("img")
         image.classList.add("img")
+        image.style.width = "70px"
         if(this.state === 0){
             image.src = "../assets/img/cara.jpeg"
             image.alt = "Head"
